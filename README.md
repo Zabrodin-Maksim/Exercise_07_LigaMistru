@@ -5,8 +5,6 @@
 Pokračujte v projektech z minulého cvičení a přidejte podporu pro ukládání a načítání dat do/z textových souborů.
 
 ## Postup
-* Projekty (obsah složek) **ChampionsLeague** a **ChampionsLeagueLibrary** nahraďte hotovými projekty z minulého cvičení
-* Projekt ChampionsLeagueLibraryTests neměňte! Obsahuje nové jednotkové testy.
 * Ve třídě **Player**
   * přetižte metody **Equals** a **GetHashCode**, tak aby porovnávali objekty hráčů podle hodnot vlastností
   * **Equals** vrací **true** pouze v případě, kdy platí ```pl1.Name==pl2.Name && pl1.Club==pl2.Club && pl1.GoalCount==pl2.GoalCount```
